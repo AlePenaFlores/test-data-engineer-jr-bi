@@ -1,0 +1,32 @@
+1. ¿Qué es una base de datos? 
+Es un conjunto de datos almacenados que pertenecen a un mismo contexto, y por lo tanto, comparten la misma estructura
+
+2. ¿A qué hace referencia la integridad en Base de datos?
+Se refiere a que cada una de los registros que se guardan en la base de datos deben de tener la misma estructura,
+que cada una de las columnas (variables) en la base debe tener el mismo tipo de dato, y que cada registro debe estar completo y correcto
+
+3. ¿Cuál es el campo que dentro del registro permite la identificación exclusiva y univoca de cada registro?
+El Primary Key
+
+4. ¿El comando ALTER TABLE se utiliza para crear una nueva tabla en la base de datos?
+No, se utiliza para cambiar/actualizar una tabla existente
+
+5. ¿Con que sentencia borras información?
+DROP, puede usarse para eliminar columnas, tablas, bases de datos. DELETE en el caso de que se quiera eliminar un registro en una tabla
+
+6. ¿Qué palabra clave se usa para filtrar información?
+WHERE, se utiliza en un SELECT statement para definir una característica por la cual se quiera filtrar la información
+
+7. ¿Como se le llama al diagrama que ayuda a visualizar la relación entre tablas de una base de datos?
+Entity Relationship Diagram / Diagrama Entidad-Relación
+
+8. ¿Cuál es la sentencia para crear un procedimiento almacenado?
+CREATE PROCEDURE nombre-del-procedimiento 
+AS definición-del-procedimiento
+GO;
+
+9. ¿Cuál es el comando que se utiliza para ver campos vacíos o desconocidos?
+IS NULL (SELECT columna(s) FROM tabla WHERE columna-a-evaluar IS NULL)
+
+10. ¿Cuál es el comando que crea un objeto dentro de una base de datos?
+CREATE 
